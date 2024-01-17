@@ -15,7 +15,7 @@ Compreender esses conceitos não apenas facilita o aprendizado de novas linguage
 
 Desafios - Respostas
 Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
-```
+```javascript
 diaDaSemana = prompt('Qual é o dia da semana?');
 if (diaDaSemana == 'Sábado') {
     alert('Bom fim de semana!');
@@ -27,7 +27,7 @@ if (diaDaSemana == 'Sábado') {
 ```
 
 Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
-```
+```javascript
 numero = prompt('Digite um positivo ou negativo');
 if (numero > 0) {
     alert('Número positivo!');
@@ -37,7 +37,7 @@ if (numero > 0) {
 ```
 
 Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!" no console do navegador. Caso contrário, mostre "Tente novamente para ganhar.".
-```
+```javascript
 pontuacao = 105;
 if (pontuacao > 100) {
     console.log('Parabéns, você venceu!');
@@ -47,7 +47,7 @@ if (pontuacao > 100) {
 ```
 
 Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
-```
+```javascript
 let saldoConta = 500; // Exemplo de saldo
 alert(`Seu saldo é de R$${saldoConta}.`);
 Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
